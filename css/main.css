@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+}
+
+form {
+  background: #EAF2F8;
+  border-radius: 10px;
+  color: #008CDE;
+  margin: 50px auto;
+  padding: 50px;
+  width: 400px;
+}
+.out {
+  color: blue;
+}
+
+.submit { /*Selecciona el botón*/
+  border: 1px solid #f2f2f1;
+  cursor: pointer;
+  font-size: 20px;
+  margin: 0 auto;
+  padding: 10px;
+  width: 100px;
+}
+
+.submit:hover {
+  background-color: #4fb560;
+  color: white;
+}
+.answer {
+  margin-top: 50px;
+}
